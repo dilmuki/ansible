@@ -1,0 +1,7 @@
+---
+- name: Create bucket
+  hosts: localhost
+  tasks:
+    - name: Creat s3 bucket
+      s3_bucket: 
+        name: kadirovich2018Oct20
